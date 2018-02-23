@@ -52,8 +52,8 @@ import { trigger, style, transition, animate, keyframes, query, stagger, state }
 })
 export class CarouselcardsComponent implements OnInit {
 
-  itemCount: Number = 0;
-  btn: Number = 0;
+  itemCount: any = 0;
+  btn: any = 0;
   goals = [];
   constructor() { }
 

@@ -1,0 +1,18 @@
+<div class="color-dark">
+  <div class="col">
+    <p>Carousel card</p>
+  </div>
+</div>
+<div class="color-light" >
+  <div class="col" >
+    <input type="button" class="btn" value="Left" (click)="itemCount = itemCount - 1; btn = '';btn = 'right';" />
+    <span *ngFor="let goal of goals; let i = index" >
+      <div  class="card" [hidden]="itemCount != i" [ngClass]="{'displayInline': itemCount == i}" [@goals]="btn">
+          <img src="{{ goal.imgurl }}" alt="" />
+          <h1>{{ goal.name }}</h1>
+          <p>{{ goal.paraText }}</p>
+      </div>
+    </span>
+    <input type="button" class="btn" value="Right" (click)="itemCount = itemCount + 1; btn = ''; btn = 'left';" />
+  </div>
+</div>

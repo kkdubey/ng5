@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: #2885c4
+}
+.color-light {
+    background: #57b3f1
+}
+input.txt {
+    border: 0;
+    padding:  1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+input.btn {
+    border: 0;
+    padding: 1em 3em;
+    background: #A5f883;
+    color: #003a61;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.life-container {
+    background: #3fa0e1;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.card{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid green;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    }
+    
+    .displayInline {
+        display: inline-block;
+    }
+    img{
+      border-radius: 50%;
+      width: 70px;
+      margin: 10px;
+    }
+    
+    h1{
+      font-weight: lighter;
+      margin-left: 100px;
+      margin-top: -70px;
+    }
+    
+    p{
+      margin: 10px;
+      font-family: segoe ui;
+      line-height: 1.4em;
+      font-size: 1.2em;
+    }
+    
+    #mainbox{
+      font-family: calibri;
+      box-sizing: border-box;
+      justify-content: center;
+      display: flex;
+    flex-wrap: wrap;
+    }
